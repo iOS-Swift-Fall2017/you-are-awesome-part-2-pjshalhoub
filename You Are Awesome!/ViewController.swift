@@ -80,7 +80,7 @@ class ViewController: UIViewController {
         index = nonRepeatingRandom(lastNumber: index, maxValue: messages.count)
         messageLabel.text = messages[index]
         
-        // Show an image
+        // Show an image here
         awesomeImage.isHidden = false
      
         imageNumber = nonRepeatingRandom(lastNumber: imageNumber, maxValue: numberOfImages)
